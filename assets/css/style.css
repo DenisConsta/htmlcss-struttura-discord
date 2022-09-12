@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* utilities*/
+
+.debug{
+  border: 1px solid firebrick;
+  background-color: bisque;
+}
+
+/* GENERAL */
+
+body{
+
+}
+
+.container{
+  max-width: 1440px;
+  width: 80%;
+  margin: 0 auto;
+  
+  /* da togliere*/
+  height: 100%;
+  border: 1px solid orange;
+}
+
+/* HEADER */
+
+header{
+  /*da togliere */
+  height: 620px;
+}
+
+header .top-header{
+  height: 80px;
+  background-color: #3161E0;
+}
+
+header .bottom-header{
+  height: 100%;
+  background-color:cornflowerblue;
+}
