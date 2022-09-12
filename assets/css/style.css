@@ -15,7 +15,8 @@
 
 /* GENERAL */
 
-body, .btn{
+body,
+.btn{
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -36,6 +37,14 @@ body, .btn{
   border: none;
   border-radius: 30px;
 }
+
+
+.text{
+  width: 400px;
+  height: 400px;
+  background-color:silver ;
+}
+
 
 /* HEADER */
 /*tutte le height da togliere */
@@ -103,17 +112,45 @@ header .bottom-header div .content > *:not(.btn){
   margin-bottom: 50px;
 }
 
-
 /* MAIN */
 /*tutte le height da togliere */
 main{
 }
 
+/* sections */
+
 main section{
   height: 800px;
 }
 
-main section.sec-2,.sec-4,.sec-5{
+main section > div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main section div .mockups{
+  /* da togliere */
+  width: 600px;
+  height: 400px;
+  background-color:coral ;
+}
+
+main section div .text{
+  padding: 10px;
+}
+
+main section div .text h2 {
+  font-size: 40px;
+}
+
+main section.sec-2 div .mockups{
+  order: 1;
+} 
+
+main section.sec-2,
+.sec-4,
+.sec-5{
   background-color: #F6F6F6;
 }
 
