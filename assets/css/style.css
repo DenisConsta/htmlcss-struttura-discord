@@ -28,9 +28,9 @@ body{
 }
 
 /* HEADER */
-
+/*tutte le height da togliere */
 header{
-  /*da togliere */
+  
   height: 620px;
 }
 
@@ -40,6 +40,35 @@ header .top-header{
 }
 
 header .bottom-header{
-  height: 100%;
+  height: calc(100% - 80px);
   background-color:cornflowerblue;
+}
+
+/* MAIN */
+/*tutte le height da togliere */
+main{
+}
+
+main section{
+  height: 800px;
+}
+
+main section.sec-2,.sec-4,.sec-5{
+  background-color: #F6F6F6;
+}
+
+main section.sec-4{
+  height: 1000px;
+}
+
+main section.sec-5{
+  height: 300px;
+}
+
+/* FOOTER */
+/*tutte le height da togliere */
+
+footer{
+  height: 670px;
+  background-color: #23272A;
 }
