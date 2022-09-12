@@ -27,8 +27,8 @@ body,
   
   /* da togliere*/
   height: 100%;
-  border: 1px solid orange;
-}
+/*   border: 1px solid orange;
+ */}
 
 .btn{
   background-color: white;
@@ -203,4 +203,66 @@ main section.sec-5 div h3{
 footer{
   height: 670px;
   background-color: #23272A;
+  color: white;
+}
+
+footer h3,
+h4{
+  color: #7289DA;
+}
+
+/* top-footer*/
+footer .top-footer{
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  padding-top: 70px;
+  border-bottom: 1px solid #7289DA;
+  margin-bottom: 30px;
+}
+
+footer .top-footer .social{
+  width: 400px;
+}
+
+footer .top-footer .social>*{
+  margin-bottom: 20px;
+}
+
+footer .top-footer nav{
+  width: 200px;
+}
+
+footer .top-footer nav h4{
+  margin-bottom: 10px;
+}
+
+footer .top-footer .social h3{
+  font-size: 35px;
+}
+
+footer nav.list ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer nav.list ul li{
+  list-style: none;
+}
+
+footer nav.list ul li a{
+  color:white;
+  text-decoration: none;
+}
+
+/* bottom-footer*/
+
+footer .bottom-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .bottom-footer .logo img{
+  width: 130px;
 }
