@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -13,12 +15,12 @@
 
 /* GENERAL */
 
-body{
-
+body, .btn{
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container{
-  max-width: 1440px;
+  max-width: 1200px;
   width: 80%;
   margin: 0 auto;
   
@@ -27,22 +29,80 @@ body{
   border: 1px solid orange;
 }
 
+.btn{
+  background-color: white;
+  padding: 8px 16px;
+  font-size:14px;
+  border: none;
+  border-radius: 30px;
+}
+
 /* HEADER */
 /*tutte le height da togliere */
+
 header{
-  
   height: 620px;
 }
+
+/* top-header */
 
 header .top-header{
   height: 80px;
   background-color: #3161E0;
 }
 
+header .top-header>div{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* logo */
+header .top-header .logo img{
+  width: 40px;
+}
+
+/* nav */
+
+header .top-header div nav ul{
+  display: flex;
+  gap: 35px;
+  list-style: none;
+}
+
+header .top-header div nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* bottom-header */
+
 header .bottom-header{
   height: calc(100% - 80px);
   background-color:cornflowerblue;
 }
+
+header .bottom-header > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+header .bottom-header div .content{
+  width: 60%;
+  text-align: center;
+}
+
+header .bottom-header div .content h1{
+  font-size: 50px;
+}
+
+header .bottom-header div .content > *:not(.btn){
+  margin-bottom: 50px;
+}
+
 
 /* MAIN */
 /*tutte le height da togliere */
