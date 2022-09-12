@@ -45,6 +45,50 @@ body,
  */  background-color:silver ;
 }
 
+/* WAVE UP */
+
+.wave-up {
+  /* position: absolute; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave-up svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 75px;
+}
+
+.wave-up .shape-fill {
+  fill: #F6F6F6;
+}
+
+/* WAVE DOWN*/
+.wave-down {
+/*   position: absolute;
+ */  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.wave-down svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 75px;
+}
+
+.wave-down .shape-fill {
+  fill: #F6F6F6;
+}
 
 /* HEADER */
 /*tutte le height da togliere */
@@ -155,6 +199,9 @@ main section.sec-2,
 .sec-4,
 .sec-5{
   background-color: #F6F6F6;
+}
+
+main section.sec-2{
 }
 
 main section.sec-4{
